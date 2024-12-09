@@ -1,0 +1,262 @@
+{
+  "quizzes": [
+    {
+      "id": 1,
+      "name": "JavaScript Basics",
+      "description": "Test your basic knowledge of JavaScript.",
+      "level": "Beginner",
+      "numberOfQuestions": 2,
+      "image": "https://via.placeholder.com/200x150.png?text=JavaScript+Basics"
+    },
+    {
+      "id": 2,
+      "name": "HTML & CSS",
+      "description": "How well do you know HTML and CSS?",
+      "level": "Intermediate",
+      "numberOfQuestions": 2,
+      "image": "https://via.placeholder.com/200x150.png?text=HTML+%26+CSS"
+    },
+    {
+      "id": 3,
+      "name": "React Fundamentals",
+      "description": "Test your React skills.",
+      "level": "Advanced",
+      "numberOfQuestions": 2,
+      "image": "https://via.placeholder.com/200x150.png?text=React+Fundamentals"
+    },
+    {
+      "id": 4,
+      "name": "Node.js Essentials",
+      "description": "Learn the basics of Node.js.",
+      "level": "Beginner",
+      "numberOfQuestions": 2,
+      "image": "https://via.placeholder.com/200x150.png?text=Node.js+Essentials"
+    },
+    {
+      "id": 5,
+      "name": "Python for Beginners",
+      "description": "How well do you know Python programming?",
+      "level": "Beginner",
+      "numberOfQuestions": 2,
+      "image": "https://via.placeholder.com/200x150.png?text=Python+for+Beginners"
+    },
+    {
+      "id": 6,
+      "name": "Database Concepts",
+      "description": "Understanding databases and queries.",
+      "level": "Intermediate",
+      "numberOfQuestions": 2,
+      "image": "https://via.placeholder.com/200x150.png?text=Database+Concepts"
+    },
+    {
+      "id": 7,
+      "name": "Advanced JavaScript",
+      "description": "Test your advanced JavaScript knowledge.",
+      "level": "Advanced",
+      "numberOfQuestions": 2,
+      "image": "https://via.placeholder.com/200x150.png?text=Advanced+JavaScript"
+    },
+    {
+      "id": 8,
+      "name": "CSS Grid and Flexbox",
+      "description": "Master CSS layout techniques.",
+      "level": "Advanced",
+      "numberOfQuestions": 2,
+      "image": "https://via.placeholder.com/200x150.png?text=CSS+Grid+%26+Flexbox"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "quizId": 1,
+      "question": "What is the correct syntax for creating a function in JavaScript?",
+      "options": [
+        { "text": "function myFunction()", "isCorrect": true },
+        { "text": "def myFunction()", "isCorrect": false },
+        { "text": "function: myFunction()", "isCorrect": false },
+        { "text": "myFunction()", "isCorrect": false }
+      ],
+      "type": "single"
+    },
+    {
+      "id": 2,
+      "quizId": 1,
+      "question": "What does 'var' in JavaScript do?",
+      "options": [
+        { "text": "Defines a variable", "isCorrect": true },
+        { "text": "Creates a constant", "isCorrect": false },
+        { "text": "Declares a function", "isCorrect": false },
+        { "text": "None of the above", "isCorrect": false }
+      ],
+      "type": "single"
+    },
+    {
+      "id": 3,
+      "quizId": 2,
+      "question": "Which tag is used to define a hyperlink in HTML?",
+      "options": [
+        { "text": "<link>", "isCorrect": false },
+        { "text": "<a>", "isCorrect": true },
+        { "text": "<hyperlink>", "isCorrect": false },
+        { "text": "<href>", "isCorrect": false }
+      ],
+      "type": "single"
+    },
+    {
+      "id": 4,
+      "quizId": 2,
+      "question": "Which CSS property is used to change the background color?",
+      "options": [
+        { "text": "background-color", "isCorrect": true },
+        { "text": "color", "isCorrect": false },
+        { "text": "bg-color", "isCorrect": false },
+        { "text": "background", "isCorrect": false }
+      ],
+      "type": "single"
+    },
+    {
+      "id": 5,
+      "quizId": 3,
+      "question": "What is the correct way to create a component in React?",
+      "options": [
+        { "text": "function MyComponent()", "isCorrect": false },
+        { "text": "const MyComponent = () => {}", "isCorrect": true },
+        { "text": "React.createComponent()", "isCorrect": false },
+        { "text": "component.MyComponent()", "isCorrect": false }
+      ],
+      "type": "single"
+    },
+    {
+      "id": 6,
+      "quizId": 3,
+      "question": "Which hook is used to manage state in React functional components?",
+      "options": [
+        { "text": "useEffect", "isCorrect": false },
+        { "text": "useState", "isCorrect": true },
+        { "text": "useRef", "isCorrect": false },
+        { "text": "useContext", "isCorrect": false }
+      ],
+      "type": "single"
+    },
+    {
+      "id": 7,
+      "quizId": 4,
+      "question": "What is Node.js used for?",
+      "options": [
+        { "text": "Building frontend applications", "isCorrect": false },
+        { "text": "Building backend applications", "isCorrect": true },
+        { "text": "Creating databases", "isCorrect": false },
+        { "text": "None of the above", "isCorrect": false }
+      ],
+      "type": "single"
+    },
+    {
+      "id": 8,
+      "quizId": 4,
+      "question": "Which Node.js module is used to handle file system operations?",
+      "options": [
+        { "text": "fs", "isCorrect": true },
+        { "text": "path", "isCorrect": false },
+        { "text": "http", "isCorrect": false },
+        { "text": "url", "isCorrect": false }
+      ],
+      "type": "single"
+    },
+    {
+      "id": 9,
+      "quizId": 5,
+      "question": "Which of the following is the correct syntax to print 'Hello, World!' in Python?",
+      "options": [
+        { "text": "print('Hello, World!')", "isCorrect": true },
+        { "text": "echo 'Hello, World!'", "isCorrect": false },
+        { "text": "console.log('Hello, World!')", "isCorrect": false },
+        { "text": "printf('Hello, World!')", "isCorrect": false }
+      ],
+      "type": "single"
+    },
+    {
+      "id": 10,
+      "quizId": 5,
+      "question": "Which of the following is used for creating a function in Python?",
+      "options": [
+        { "text": "function myFunction()", "isCorrect": false },
+        { "text": "def myFunction():", "isCorrect": true },
+        { "text": "create myFunction()", "isCorrect": false },
+        { "text": "func myFunction()", "isCorrect": false }
+      ],
+      "type": "single"
+    },
+    {
+      "id": 11,
+      "quizId": 6,
+      "question": "Which SQL keyword is used to retrieve data from a database?",
+      "options": [
+        { "text": "SELECT", "isCorrect": true },
+        { "text": "GET", "isCorrect": false },
+        { "text": "FETCH", "isCorrect": false },
+        { "text": "READ", "isCorrect": false }
+      ],
+      "type": "single"
+    },
+    {
+      "id": 12,
+      "quizId": 6,
+      "question": "Which of the following is used to create a database in SQL?",
+      "options": [
+        { "text": "CREATE DATABASE", "isCorrect": true },
+        { "text": "NEW DATABASE", "isCorrect": false },
+        { "text": "DATABASE CREATE", "isCorrect": false },
+        { "text": "MAKE DATABASE", "isCorrect": false }
+      ],
+      "type": "single"
+    },
+    {
+      "id": 13,
+      "quizId": 7,
+      "question": "What is the scope of a variable declared with 'let' in JavaScript?",
+      "options": [
+        { "text": "Global", "isCorrect": false },
+        { "text": "Function", "isCorrect": true },
+        { "text": "Block", "isCorrect": true },
+        { "text": "Local", "isCorrect": false }
+      ],
+      "type": "multiple"
+    },
+    {
+      "id": 14,
+      "quizId": 7,
+      "question": "Which method is used to add a new element to the end of an array in JavaScript?",
+      "options": [
+        { "text": "push()", "isCorrect": true },
+        { "text": "append()", "isCorrect": false },
+        { "text": "insert()", "isCorrect": false },
+        { "text": "add()", "isCorrect": false }
+      ],
+      "type": "single"
+    },
+    {
+      "id": 15,
+      "quizId": 8,
+      "question": "What is the default display property of a <div> in CSS?",
+      "options": [
+        { "text": "inline", "isCorrect": false },
+        { "text": "block", "isCorrect": true },
+        { "text": "inline-block", "isCorrect": false },
+        { "text": "flex", "isCorrect": false }
+      ],
+      "type": "single"
+    },
+    {
+      "id": 16,
+      "quizId": 8,
+      "question": "Which CSS property is used to create flexible layouts?",
+      "options": [
+        { "text": "flexbox", "isCorrect": true },
+        { "text": "grid", "isCorrect": true },
+        { "text": "layout", "isCorrect": false },
+        { "text": "box", "isCorrect": false }
+      ],
+      "type": "multiple"
+    }
+  ]
+}
