@@ -4,10 +4,7 @@ const User = require('../models/model.user');
 const jwt = require('jsonwebtoken');
 
 
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID || "895008070474-gmt0juck2a2m0kem73tkviir3ibmrh4r.apps.googleusercontent.com";
 const GOOGLE_CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET || "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";
 const GOOGLE_CALLBACK_URL = process.env.GOOGLE_CALLBACK_URL || "http://107.22.157.99/api/users/google/callback";
